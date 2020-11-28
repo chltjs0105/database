@@ -1,0 +1,16 @@
+USE faresqure;
+
+CREATE TABLE ticket (
+title VARCHAR(15) NOT NULL
+number VARCHAR(15) NOT NULL,
+name CHAR(5) NOT NULL,
+date VARCHAR(15) NOT NULL,
+company VARCHAR(15) NOT NULL,
+);
+
+CREATE TABLE users(
+fname VARCHAR(15) NOT NULL
+lname VARCHAR(15) NOT NULL,
+bdate CHAR(15) NOT NULL,
+phone VARCHAR(15) NOT NULL,
+);
