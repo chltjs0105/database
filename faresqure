@@ -1,4 +1,10 @@
+DROP DATABASE IF EXISTS faresqure;
+CREATE DATABASE IF NOT EXISTS faresqure;
 USE faresqure;
+
+
+
+DROP TABLE IF EXISTS 	ticket, users;
 
 CREATE TABLE ticket (
 title VARCHAR(15) NOT NULL
